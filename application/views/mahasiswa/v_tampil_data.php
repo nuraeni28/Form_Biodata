@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <div class="filter"></div>
     
-    <table>
+    <table style="margin-top:50px;">
     <?php
         if(!$this->session->flashdata('Info') == ''){
             echo $this->session->flashdata('Info');
